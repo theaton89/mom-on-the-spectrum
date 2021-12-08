@@ -1,0 +1,331 @@
+:root {
+  --primary-color: #e8fdff;
+  --heading-font-family: "Playfair display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #05aabb;
+  --tertiary-color: #faf7fe;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p,
+ul {
+  font-family: var(--default-font-family);
+}
+
+.hero h1,
+.hero h3 {
+  font-family: var(--heading-font-family);
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h3 {
+  font-size: 24px;
+  margin-top: 18px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.header-intro {
+  margin-top: 130px;
+}
+
+.header-main {
+  background: var(--primary-color);
+}
+
+nav {
+  font-family: var(--default-font-family);
+}
+
+.btn-branding,
+.btn-project {
+  background: var(--secondary-color);
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 34px;
+  padding: 12px 20px;
+  color: white;
+}
+
+.btn-project {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-project:hover,
+.btn-branding:hover {
+  background: white;
+  transition: 100ms ease-in-out;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+.project-showcase {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  margin-top: 18px;
+  color: var(--secondary-color);
+}
+
+.showcase-title {
+  font-family: var(--heading-font-family);
+  padding-top: 40px;
+  font-size: 68px;
+}
+
+i {
+  font-size: 32px;
+  margin: 16px 16px 0 16px;
+}
+
+.contact-section {
+  background: var(--primary-color);
+  padding-bottom: 40px;
+  padding-top: 28px;
+  max-width: 100%;
+}
+
+.html {
+  color: #ed5e29;
+}
+
+.css {
+  color: #2367b2;
+}
+
+.js {
+  color: #f1bf22;
+}
+
+.code {
+  color: #0279cb;
+}
+
+.api {
+  color: #03bff4;
+}
+
+.bootstrap {
+  color: #7311f5;
+}
+
+.hosting {
+  color: #38aebb;
+}
+
+.flexbox {
+  color: #0765fa;
+}
+
+.react {
+  color: #03d9fe;
+}
+
+.github {
+  color: #963ea6;
+}
+
+.seo {
+  color: #34a953;
+}
+
+.contact-icons {
+  color: var(--secondary-color);
+}
+
+.contact-icons:hover {
+  color: var(--secondary-color);
+  opacity: 0.6;
+}
+
+.taylors-email {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
+.contact-header {
+  font-size: 48px;
+}
+
+.my-projects {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero p {
+    font-size: 28px;
+    margin-top: 12px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  .hero h3 {
+    font-size: 18px;
+  }
+  .header-intro {
+    margin-top: 20px;
+  }
+  .showcase-title {
+    font-size: 42px;
+  }
+  .project-showcase {
+    font-size: 28px;
+  }
+  .project-showcase h1 {
+    text-align: left;
+  }
+
+  footer {
+    padding: 48px;
+    padding-bottom: 10px;
+  }
+
+  .about-hero h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .about-hero h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .section-divider,
+  .about-p2,
+  .contact-button,
+  .project-image,
+  .about-section-divider {
+    display: none;
+  }
+
+  .showcase-title {
+    padding-top: 28px;
+  }
+}
+
+.project-description {
+  opacity: 0.6;
+  text-align: start;
+  margin: 0px 20px 20px 20px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 280px;
+}
+
+.about-section {
+  background: var(--tertiary-color);
+}
+
+.cert-img {
+  border: 4px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.about-hero {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.p-link,
+.p-link:visited,
+.email-taylor {
+  color: black;
+  font-weight: bold;
+}
+
+.p-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.email-taylor:hover {
+  color: #79cbd6;
+  text-decoration: none;
+}
+
+.about-p,
+.about-p2 {
+  line-height: 1.75;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.about-h1 {
+  font-size: 64px;
+}
+.logo {
+  color: Var(--secondary-color);
+  font-size: 36px;
+}
+.logo:hover {
+  color: var(--secondary-color);
+}
+
+.nav-link {
+  color: black;
+  opacity: 0.6;
+}
+
+.nav-link:hover,
+.active {
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.section-divider {
+  background: var(--tertiary-color);
+  padding: 48px;
+}
+
+.about-section-divider {
+  background: var(--primary-color);
+  padding: 48px;
+}
+
+.header-arrow:hover,
+.footer-arrow:hover {
+  color: var(--secondary-color);
+  opacity: 0.6;
+}
+.footer-arrow,
+.header-arrow {
+  font-size: 124px;
+  color: var(--secondary-color);
+}
+
+.arrow-link {
+  color: var(--secondary-color);
+}
+.arrow-link:hover {
+  text-decoration: none;
+}
+
+.certifications h2 {
+  font-size: 38px;
+}
