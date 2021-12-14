@@ -1,15 +1,12 @@
 :root {
-  --primary-color: #e8fdff;
+  --light-section-color: #e8fdff;
   --heading-font-family: "Raleway", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #05aabb;
-  --tertiary-color: #faf7fe;
 }
 
 h1,
-h2,
 h3 {
-  color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -21,8 +18,7 @@ h4 {
   margin-top: 20px;
 }
 
-p,
-ul {
+p {
   font-family: var(--default-font-family);
 }
 
@@ -44,24 +40,17 @@ ul {
   color: white;
 }
 
-.hero h3 {
-  font-size: 24px;
-  margin-top: 18px;
-}
-
-.hero p {
-  font-family: var(--default-font-family);
-  font-size: 36px;
-  margin-bottom: 0px;
-  font-weight: bold;
-}
-
 .header-intro {
   margin-top: 40px;
 }
 
 .header-main {
   background: #015d9f;
+}
+
+.circle-logo {
+  width: 200px;
+  height: 200px;
 }
 
 nav {
@@ -91,7 +80,7 @@ i {
 }
 
 .contact-section {
-  background: var(--primary-color);
+  background: var(--light-section-color);
   padding-bottom: 40px;
   padding-top: 28px;
   max-width: 100%;
@@ -113,36 +102,17 @@ i {
 
 .contact-header {
   font-size: 48px;
-}
-
-.my-projects {
-  max-width: 100%;
+  color: black;
 }
 
 @media (max-width: 768px) {
-  .hero p {
-    font-size: 28px;
-    margin-top: 12px;
-  }
   .hero h1 {
     font-size: 60px;
     margin-bottom: 0px;
   }
-  .hero h3 {
-    font-size: 18px;
-  }
+
   .header-intro {
     margin-top: 20px;
-  }
-
-  .showcase-title {
-    font-size: 42px;
-  }
-  .project-showcase {
-    font-size: 28px;
-  }
-  .project-showcase h1 {
-    text-align: left;
   }
 
   footer {
@@ -150,53 +120,15 @@ i {
     padding-bottom: 10px;
   }
 
-  .about-hero h1 {
-    font-size: 48px;
-    text-align: center;
-  }
-
-  .about-hero h3 {
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .about-p {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 32px;
-  }
-
   .section-divider,
-  .about-p2,
-  .contact-button {
+  .contact-button,
+  iframe {
     display: none;
   }
-}
 
-.project-description {
-  opacity: 0.6;
-  text-align: start;
-  margin: 0px 20px 20px 20px;
-}
-
-.project-image img {
-  width: 100%;
-  height: 280px;
-}
-
-.about-section {
-  background: var(--tertiary-color);
-}
-
-.cert-img {
-  border: 4px solid var(--secondary-color);
-  border-radius: 4px;
-}
-
-.about-hero {
-  padding-left: 40px;
-  padding-right: 40px;
+  .more-button {
+    margin-bottom: 32px;
+  }
 }
 
 .email-taylor {
@@ -204,32 +136,9 @@ i {
   font-weight: bold;
 }
 
-.p-link:hover {
-  text-decoration: none;
-  color: var(--secondary-color);
-}
-
 .email-taylor:hover {
   color: #79cbd6;
   text-decoration: none;
-}
-
-.about-p,
-.about-p2 {
-  line-height: 1.75;
-  opacity: 0.7;
-  font-size: 16px;
-}
-
-.about-h1 {
-  font-size: 64px;
-}
-.logo {
-  color: Var(--secondary-color);
-  font-size: 36px;
-}
-.logo:hover {
-  color: var(--secondary-color);
 }
 
 .nav-link {
@@ -245,15 +154,14 @@ i {
 .section-divider {
   background: #ef5f9b;
   padding: 48px;
+  padding-top: 18px;
 }
 
-.header-arrow:hover,
 .footer-arrow:hover {
   color: var(--secondary-color);
   opacity: 0.6;
 }
-.footer-arrow,
-.header-arrow {
+.footer-arrow {
   font-size: 124px;
   color: var(--secondary-color);
 }
@@ -263,8 +171,4 @@ i {
 }
 .arrow-link:hover {
   text-decoration: none;
-}
-
-.certifications h2 {
-  font-size: 38px;
 }
