@@ -11,10 +11,22 @@ h3 {
   font-weight: bold;
 }
 
+.williams {
+  color: white;
+  font-size: 24px;
+}
+
 h4 {
   font-family: "Shadows Into Light", cursive;
-  font-size: 58px;
+  font-size: 72px;
   color: white;
+  margin-top: 20px;
+}
+
+h5 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 48px;
+  color: black;
   margin-top: 20px;
 }
 
@@ -23,15 +35,15 @@ p {
 }
 
 .about-info {
-  color: white;
+  color: black;
 }
 
 .about-info a {
-  color: #015e9f;
+  color: #05aaba;
 }
 
 .about-info a:hover {
-  color: white;
+  color: #05aaba;
   text-decoration: none;
 }
 
@@ -71,7 +83,21 @@ nav {
   background: white;
   transition: 100ms ease-in-out;
   color: #ef5f9b;
-  border: 2px solid #ef5f9b;
+  border: 1px solid #ef5f9b;
+}
+
+.btn-document {
+  background: #05aaba;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 34px;
+  padding: 12px 20px;
+  color: white;
+}
+
+.btn-document:hover {
+  color: white;
 }
 
 i {
@@ -81,6 +107,13 @@ i {
 
 .contact-section {
   background: var(--light-section-color);
+  padding-bottom: 40px;
+  padding-top: 28px;
+  max-width: 100%;
+}
+
+.meltdown-section {
+  background: #015e9f;
   padding-bottom: 40px;
   padding-top: 28px;
   max-width: 100%;
@@ -105,10 +138,22 @@ i {
   color: black;
 }
 
+.smp-header {
+  font-size: 48px;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 60px;
     margin-bottom: 0px;
+  }
+
+  .taylor-heaton {
+    font-size: 62px;
+  }
+
+  .smp-header {
+    font-size: 38px;
   }
 
   .header-intro {
@@ -152,9 +197,21 @@ i {
 }
 
 .section-divider {
-  background: #ef5f9b;
+  background: var(--light-section-color);
   padding: 48px;
   padding-top: 18px;
+}
+
+.about-divider {
+  padding: 48px;
+  padding-top: 18px;
+  border-style: solid;
+  border-color: #8fe4e9;
+  border-radius: 40px;
+  border-width: 8px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-arrow:hover {
