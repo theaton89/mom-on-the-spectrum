@@ -229,3 +229,7 @@ i {
 .arrow-link:hover {
   text-decoration: none;
 }
+
+.chart img {
+  max-width: 75%;
+}
