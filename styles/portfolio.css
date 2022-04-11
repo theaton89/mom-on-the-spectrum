@@ -35,16 +35,22 @@ p {
 }
 
 .about-info {
-  color: black;
+  color: white;
+  margin-left: 92px;
+  margin-right: 92px;
+}
+
+.about-info-header {
+  color: white;
 }
 
 .about-info a {
-  color: #05aaba;
+  color: white;
+  text-decoration: underline;
 }
 
 .about-info a:hover {
-  color: #05aaba;
-  text-decoration: none;
+  color: white;
 }
 
 .hero h1 {
@@ -56,13 +62,14 @@ p {
   margin-top: 40px;
 }
 
-.header-main {
-  background: #015d9f;
-}
-
 .circle-logo {
   width: 200px;
   height: 200px;
+}
+
+.main-logo {
+  display: block;
+  max-width: 100%;
 }
 
 nav {
@@ -207,15 +214,10 @@ i {
 }
 
 .about-divider {
-  padding: 48px;
-  padding-top: 18px;
-  border-style: solid;
-  border-color: #8fe4e9;
-  border-radius: 40px;
-  border-width: 8px;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #05aaba;
+  padding-bottom: 40px;
+  padding-top: 28px;
+  max-width: 100%;
 }
 
 .footer-arrow:hover {
